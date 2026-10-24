@@ -3,8 +3,8 @@
    Website Interactions
 ========================================= */
 
-const BOOKSY_URL =
-    "https://booksy.com/en-us/1824117_kemite-hair-braiding_braids-locs_36434_princeton#ba_s=seo";
+const BOOKING_URL =
+    "https://miali.app/business/kemite-hair-braiding";
 
 const WHATSAPP_URL = "https://wa.me/13473419483";
 
@@ -40,7 +40,7 @@ const services = [
             "Neat, detailed cornrow styles ranging from simple to intricate.",
         duration: "Example: 45 minutes–3 hours",
         price: "From $50",
-        image: "assets/images/cornrows.jpg",
+        image: "assets/images/pic2.jpeg",
         alt: "Cornrow braid hairstyle",
         category: "cornrows"
     },
@@ -50,7 +50,7 @@ const services = [
             "Loc maintenance and styling options tailored to your look.",
         duration: "Confirm when booking",
         price: "Request a quote",
-        image: "assets/images/locs.jpg",
+        image: "assets/images/pic3.jpeg",
         alt: "Loc hairstyle",
         category: "locs"
     },
@@ -100,7 +100,7 @@ const services = [
             "Clean, defined braid patterns with a polished finish.",
         duration: "Confirm when booking",
         price: "Request a quote",
-        image: "assets/images/cornrows.jpg",
+        image: "assets/images/pic4.jpeg",
         alt: "Stitch braid hairstyle",
         category: "stitch"
     },
@@ -130,29 +130,9 @@ const services = [
             "Traditional weaving styles with customizable patterns.",
         duration: "Confirm when booking",
         price: "Request a quote",
-        image: "assets/images/cornrows.jpg",
+        image: "assets/images/pic5.jpeg",
         alt: "Traditional weaving hairstyle",
         category: "ghana-weaving"
-    },
-    {
-        name: "Didi / Diki",
-        description:
-            "Traditional styling options. Contact us to confirm your preferred design.",
-        duration: "Confirm when booking",
-        price: "Request a quote",
-        image: "assets/images/cornrows.jpg",
-        alt: "Traditional braid design",
-        category: "didi"
-    },
-    {
-        name: "Kiko",
-        description:
-            "Ask about availability and the options available for this style.",
-        duration: "Confirm when booking",
-        price: "Request a quote",
-        image: "assets/images/cornrows.jpg",
-        alt: "Traditional protective braid design",
-        category: "kiko"
     }
 ];
 
@@ -190,10 +170,10 @@ if (servicesGrid) {
 
                 <a
                     class="button button-outline"
-                    href="${BOOKSY_URL}"
+                    href="${BOOKING_URL}"
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label="Book ${service.name} through Booksy"
+                    aria-label="Book ${service.name} online"
                 >
                     Book This Style ↗
                 </a>
@@ -227,13 +207,13 @@ const galleryImages = [
     {
         title: "Cornrows",
         category: "cornrows",
-        image: "assets/images/cornrows.jpg",
+        image: "assets/images/pic2.jpeg",
         alt: "Neat cornrow braid design"
     },
     {
         title: "Locs",
         category: "locs",
-        image: "assets/images/locs.jpg",
+        image: "assets/images/pic3.jpeg",
         alt: "Loc styling"
     },
     {
@@ -259,6 +239,102 @@ const galleryImages = [
         category: "cornrows",
         image: "assets/images/cornrows.jpg",
         alt: "Braided cornrow pattern"
+    },
+    {
+        title: "Braided Style 1",
+        category: "knotless",
+        image: "assets/images/pic2.jpeg",
+        alt: "Protective braid hairstyle"
+    },
+    {
+        title: "Braided Style 2",
+        category: "box",
+        image: "assets/images/pic3.jpeg",
+        alt: "Box braid hairstyle"
+    },
+    {
+        title: "Braided Style 3",
+        category: "cornrows",
+        image: "assets/images/pic4.jpeg",
+        alt: "Cornrow braid hairstyle"
+    },
+    {
+        title: "Braided Style 4",
+        category: "locs",
+        image: "assets/images/pic5.jpeg",
+        alt: "Loc hairstyle"
+    },
+    {
+        title: "Braided Style 5",
+        category: "kids",
+        image: "assets/images/pic6.jpeg",
+        alt: "Protective hairstyle"
+    },
+    {
+        title: "Braided Style 6",
+        category: "knotless",
+        image: "assets/images/pic7.jpeg",
+        alt: "Knotless braid hairstyle"
+    },
+    {
+        title: "Braided Style 7",
+        category: "box",
+        image: "assets/images/pic8.jpeg",
+        alt: "Box braid hairstyle"
+    },
+    {
+        title: "Braided Style 8",
+        category: "cornrows",
+        image: "assets/images/pic9.jpeg",
+        alt: "Cornrow braid hairstyle"
+    },
+    {
+        title: "Braided Style 9",
+        category: "locs",
+        image: "assets/images/pic10.jpeg",
+        alt: "Loc hairstyle"
+    },
+    {
+        title: "Braided Style 10",
+        category: "kids",
+        image: "assets/images/pic11.jpeg",
+        alt: "Protective hairstyle"
+    },
+    {
+        title: "Braided Style 11",
+        category: "knotless",
+        image: "assets/images/pic12.jpeg",
+        alt: "Knotless braid hairstyle"
+    },
+    {
+        title: "Braided Style 12",
+        category: "box",
+        image: "assets/images/pic13.jpeg",
+        alt: "Box braid hairstyle"
+    },
+    {
+        title: "Braided Style 13",
+        category: "cornrows",
+        image: "assets/images/pic14.jpeg",
+        alt: "Cornrow braid hairstyle"
+    },
+    {
+        title: "Braided Style 14",
+        category: "locs",
+        image: "assets/images/pic15.jpeg",
+        alt: "Loc hairstyle"
+    },
+    {
+        title: "Braided Style 15",
+        category: "kids",
+        image: "assets/images/pic16.jpeg",
+        alt: "Protective hairstyle"
+    },
+    {
+        title: "Braided Style 16",
+        category: "knotless",
+        image: "assets/images/pic17.jpeg",
+        alt: "Protective braid hairstyle"
     }
 ];
 
