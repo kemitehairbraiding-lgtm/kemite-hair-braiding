@@ -40,7 +40,7 @@ const services = [
             "Neat, detailed cornrow styles ranging from simple to intricate.",
         duration: "Example: 45 minutes–3 hours",
         price: "From $50",
-        image: "assets/images/pic2.jpeg",
+        image: "assets/images/pic2.jpg",
         alt: "Cornrow braid hairstyle",
         category: "cornrows"
     },
